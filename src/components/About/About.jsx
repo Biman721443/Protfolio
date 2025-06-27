@@ -39,11 +39,8 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+            Passionate and motivated Full Stack Web Developer with a strong foundation in front-end and back-end technologies. Proficient in HTML, CSS, JavaScript, React, Node.js, and databases (SQL/MongoDB), with hands-on experience in building responsive and scalable web applications. Eager to leverage my technical skills, problem-solving abilities, and creativity to contribute to innovative projects. A quick learner with a commitment to writing clean, efficient code and staying updated with the latest industry trends. 
+            Seeking an opportunity to grow as a developer while delivering high-quality solutions.
           </p>
           {/* Resume Button */}
           <a

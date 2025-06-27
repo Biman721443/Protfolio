@@ -39,15 +39,18 @@ import cclms from './assets/education_logo/cclms.jpg';
 import masai from './assets/education_logo/masaiSchool.jpg';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+import Zara from './assets/work_logo/Zara.png';
+import Nukri from './assets/work_logo/Nukri.png';
+import Pharma from './assets/work_logo/Pharma.png';
+import Toggle from './assets/work_logo/Toggle.png';
+import YumVoice from './assets/work_logo/YumVoice.png';
+import Loan from './assets/work_logo/Loan.png';
+
+
+
+
+
+
 
 
 export const SkillsInfo = [
@@ -101,17 +104,16 @@ export const SkillsInfo = [
     {
       id: 0,
       img: masai,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      degree: "Master of Computer Applications - MCA",
+      school: "Masai School",
+      date: "july 2024 - July 2025",
+      degree: "Full Stack Developer",
     },
     {
       id: 1,
       img: cclms,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      school: "Contai College of Learning & Management Science",
+      date: "july 2018 - Aug 2021",
+      degree: "Bachelor of Computer Applications",
     },
     
   ];
@@ -119,33 +121,64 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "zara clone",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
+        "Zara.com Clone | Full-Stack E-Commerce Web App A fully functional clone of Zara.com.",
+      image: Zara,
+      tags: ["HTML", "CSS", "JavaScript", "React JS","Chakra UI","Redux", "API"],
+      github: "https://github.com/Biman721443/zara-clone",
+      webapp: "https://zara-clone-liart.vercel.app/",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "Hire Me",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+"Naukri.com is a database of resume, jobs, and recruitment consultants. Conceived as a platform of job seekers and hiring managers .",
+      image: Nukri,
+      tags: ["React JS", "Redux Thunk", "Chakra-UI", "JSON Server", "HTML", "Axios", "JavaScript"],
+      github: "https://github.com/piyush-agrawal6/Naukri.com-clone",
+      webapp: "https://hire-me-clone.netlify.app/login",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "PharmHub",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+        "PharmHub – AI-Powered Online Pharmacy Platform A React.js and Firebase based e-pharmacy platform enabling users to Search & Purchase medicines & healthcare products,Upload Prescriptions for digital review and Get AI-Based Suggestions for personalized medicine recommendations",
+      image: Pharma,
+      tags: ["React JS", "Firebase", "HTML", "Tailwind CSS", "JavaScript"],
+      github: "https://github.com/Biman721443/PharmHub",
+      webapp: "https://pharm-hub.vercel.app/",
+    },
+    
+       {
+      id: 3,
+      title: "toggl/track.com",
+      description:
+"Toggl Track tracks time blocks, optionally labeled with a task, a project, and tags. Time can be tracked through a start/stop button, manual entry, or dragging and resizing time blocks in a calendar view. With the browser extension, Toggl Track has time tracking integrations with over 100 websites.",
+      image: Toggle,
+      tags: ["React JS","Redux", "Firebase", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Biman721443/wrong-drain-3904",
+      webapp: "https://toggl-track-clone.vercel.app/",
+    },
+     {
+      id: 4,
+      title: "YumVoice",
+      description:
+"VoiceAssist YumVoice is a web app for hands-free food ordering, utilizing React and Firebase for an interactive user experience. Key features include voice search, secure authentication, and real-time database integration.",
+      image: YumVoice,
+      tags: ["React JS", "Redux", "Firebase","HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Biman721443/YumVoice",
+      webapp: "https://yum-voice.vercel.app/",
+    },
+     {
+      id: 5,
+      title: "Loan Application",
+      description:
+        "The Loan Application Project is a full-stack web application designed to provide a seamless experience for users and administrators to manage loans. The application offers functionalities like signing up, logging in, calculating loans, filling out loan forms, and viewing loan details through a user-friendly dashboard. Admins can manage loans.",
+      image: Loan,
+      tags: ["React JS","Redux","Api","MongoDB", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Sagar-Kumar3099/creative_coders17",
+      webapp: "https://fanciful-brioche-eb8947.netlify.app/",
     },
     
   ];  
