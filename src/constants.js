@@ -119,16 +119,7 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-    {
-      id: 0,
-      title: "zara clone",
-      description:
-        "Zara.com Clone | Full-Stack E-Commerce Web App A fully functional clone of Zara.com.",
-      image: Zara,
-      tags: ["HTML", "CSS", "JavaScript", "React JS","Chakra UI","Redux", "API"],
-      github: "https://github.com/Biman721443/zara-clone",
-      webapp: "https://zara-clone-liart.vercel.app/",
-    },
+   
     {
       id: 1,
       title: "Hire Me",
